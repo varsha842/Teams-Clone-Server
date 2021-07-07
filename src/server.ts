@@ -5,7 +5,7 @@ import cors from 'cors';
 import { initMeetingServer } from './lib/meeting-server';
 import router from './routes';
 
-const PORT = 8081;
+const PORT = process.env.port || 8081;
 const app = express();
 const server = http.createServer(app);
 
