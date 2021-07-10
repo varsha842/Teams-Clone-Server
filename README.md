@@ -20,7 +20,7 @@ This is a signalling server, implemented for WebRTC applications.
 
 - Clone this repo.
 ```sh
-git clone 
+git clone https://github.com/varsha842/Teams-Clone-Server.git
 ```
 
 - Install modules.
