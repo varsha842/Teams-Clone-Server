@@ -1,11 +1,13 @@
 # Video Conferening Server
+## Signalling Server
+
+This is a signalling server, implemented for WebRTC applications.
 
 ## Getting Started
 
 ### Prerequisite
 
 - NodeJS (>=12+)
-- Yarn (>=1.19+)
 
 ### Technologies used
 
@@ -13,8 +15,20 @@
 - Typescript
 - Websocket
 
-### Run server
 
+### Installation
+
+- Clone this repo.
+```sh
+git clone 
 ```
-yarn start
+
+- Install modules.
+```sh
+npm install
+```
+
+- Run the server on terminal.
+```sh
+npm start
 ```
